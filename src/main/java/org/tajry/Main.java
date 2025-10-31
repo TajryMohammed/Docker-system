@@ -5,9 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Hello everyone");
-
-        System.out.println("hello this is some modifications");
+        System.out.println("hello everyone");
 
 
     }
