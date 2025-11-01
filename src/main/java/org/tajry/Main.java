@@ -1,14 +1,22 @@
 package org.tajry;
 
 
+import java.util.logging.Logger;
+
 public class Main {
+
+    static Logger logger = Logger.getLogger(Main.class.getName());
 
     public static void main(String[] args) {
 
+
+
         OrderProcessor orderProcessor = new OrderProcessor();
 
-        System.out.println(orderProcessor.calculateTotalPriceWithDiscount(10,20,15,true));
 
+        double result = orderProcessor.calculateTotalPriceWithDiscount(10,20,15,true);
+
+        logger.info("Result is : " + result);
 
     }
 }
