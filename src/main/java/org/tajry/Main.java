@@ -10,12 +10,6 @@ public class Main {
     public static void main(String[] args) {
 
         OrderProcessor.displayName("Mahmoud Tajry");
-        System.out.println("test Docker now test");
-        System.out.println("test Docker now test");
-        System.out.println("Test");
-        System.out.println("Test");
-        System.out.println("Test");
-        System.out.println("Test");
-        System.out.println("Test");
+
     }
 }
