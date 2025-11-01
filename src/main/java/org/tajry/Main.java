@@ -9,7 +9,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        OrderProcessor.displayName("Mahmoud Tajry");
+        System.out.println(OrderProcessor.displayName("Mahmoud Tajry"));
+
+
 
     }
 }
