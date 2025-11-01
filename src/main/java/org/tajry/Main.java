@@ -9,14 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-
-
-        OrderProcessor orderProcessor = new OrderProcessor();
-
-
-        double result = orderProcessor.calculateTotalPriceWithDiscount(10,20,15,true);
-
-        logger.info("Result is : " + result);
+        OrderProcessor.displayName("Mahmoud Tajry");
 
     }
 }
